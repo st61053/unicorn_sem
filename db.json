@@ -1,0 +1,52 @@
+{
+  "shoppingItems": [
+    {
+      "content": "Chleba",
+      "state": "completed",
+      "count": "4",
+      "id": 8
+    },
+    {
+      "content": "Rohlík",
+      "state": "active",
+      "count": "4",
+      "id": 9
+    },
+    {
+      "content": "Houska",
+      "state": "completed",
+      "count": "7",
+      "id": 10
+    },
+    {
+      "content": "Pivo",
+      "state": "completed",
+      "count": "8",
+      "id": 11
+    },
+    {
+      "content": "Makrela",
+      "state": "completed",
+      "count": "7",
+      "id": 12
+    },
+    {
+      "content": "Máslo",
+      "state": "active",
+      "count": "4",
+      "id": 13
+    },
+    {
+      "content": "Ryba",
+      "state": "completed",
+      "count": 1,
+      "id": 14
+    },
+    {
+      "content": "Olivy",
+      "state": "active",
+      "count": "6",
+      "id": 15
+    }
+  ]
+}

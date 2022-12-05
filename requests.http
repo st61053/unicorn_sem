@@ -1,0 +1,51 @@
+### Get all shopping items
+GET http://localhost:3004/shoppingList
+Accept: application/json
+
+### Get only active
+GET http://localhost:3004/shoppingItems?content=rohlik
+Accept: application/json
+
+
+### Create item
+POST http://localhost:3004/shoppingItem
+Accept: application/json
+Content-Type: application/json
+
+{
+    "content": "rohlik",
+    "count": {{$random.integer(1, 10)}},
+    "createdAt": "{{$isoTimestamp}}"
+}
+
+### Update item
+PATCH http://localhost:3004/shoppingItem/1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "count": {{$random.integer(1, 100)}}
+}
+
+
+### Update item - set to `completed`
+PATCH http://localhost:3004/shoppingItem/1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "state": "comleted"
+}
+
+### Update item - set to `active`
+PATCH http://localhost:3004/shoppingItem/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "state": "active"
+}
+
+### Delete item by ID
+DELETE http://localhost:3004/shoppingItem/12
+Accept: application/json

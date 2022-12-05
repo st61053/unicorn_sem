@@ -1,0 +1,6 @@
+{
+  "/shoppingList": "/shoppingItems",
+  "/shoppingList*": "/shoppingItems$1",
+  "/shoppingItem": "/shoppingItems",
+  "/shoppingItem/:id": "/shoppingItems/:id"
+}
