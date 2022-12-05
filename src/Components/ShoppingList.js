@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Calls from "../Calls";
-import Item from "./Items";
+import Item from "./Item";
 
 const ShopingList = () => {
   const [data, setData] = useState([]);
